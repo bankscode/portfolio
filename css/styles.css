@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    /* padding-bottom: 2000px; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #0A2647;
+    overflow: auto;
+    position: fixed;
+}
+
+/* Navbar links */
+.left-link {
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.right-link {
+    float: right;
+    text-align: center;
+    margin: 12px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 25px;
+    background-color: #FF731D;
+}
+
+.logo {
+    max-width: 40px;
+    max-height: 40px;
+    margin: 12px 30px;
+}
+
+.btn:hover {
+    background-color: #E14D2A;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 521px) {
+
+    .right-link {
+        visibility: hidden;
+    }
+
+}
+
+/* TOP CONTAINER */
+
+.top-container {
+    background-color: #0A2647;
+}
+
+.line {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.line-up {
+    margin-top: 70px;
+}
+
+.line-down {
+    display: -webkit-box;
+    margin-left: auto;
+
+}
+
+.main-top {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.hey {
+    padding-bottom: 25px;
+}
+
+.name {
+    padding-bottom: 5px;
+    font-size: 2rem;
+}
+
+.name-sub {
+    padding-bottom: 20px;
+    color: #FF731D;
+    font-size: 1.8rem;
+}
+
+.btn-header {
+    color: #fff;
+    border-color: #fff;
+    padding: 15px 35px;
+    margin-top: 20px;
+}
+
+
+/* MIDDLE CONTAINER */
+
+.first-img {
+    max-width: 100%;
+}
+
+.middle-container {
+    padding: 50px 30px;
+}
+
+.first-img-caption {
+    padding-top: 20px;
+}
+
+.caption-header {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.caption-paragraph {
+    color: grey;
+}
+
+.caption-btn {
+    color: #fff;
+    background-color:#FF731D;
+    font-size: 15px;
+    padding: 10px 30px;
+    font-weight: 400;
+}
+
+.second-img {
+    max-width: 100%;
+    padding-top: 70px;
+}
+
+.ui-header {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sixth-img {
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.sixth-caption-btn {
+    text-align: center;
+}
