@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    /* padding-bottom: 2000px; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -157,4 +156,101 @@ p {
 
 .sixth-caption-btn {
     text-align: center;
+}
+
+/* BOTTOM CONTAINER */
+
+.bottom-container {
+    background-color: #0A2647;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.expertise-div {
+    padding: 10px 30px;
+}
+
+.expertise-li li {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1.1rem
+}
+
+.bottom-line-up {
+    margin-top: 0;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.my-expertise {
+    padding-left: 13px;
+    font-size: 1.8rem
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.testimonial-header {
+    padding-bottom: 25px;
+    line-height: 1.3;
+    font-size: 1.8rem;
+}
+
+.paragraph-div {
+    padding: 20px 0;
+    background-color: #FF731D;
+    color: #fff;
+}
+
+.paragraph-div p {
+    padding: 0 20px;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.test-p {
+    font-weight: 500;
+}
+
+/* SAY HI SECTION */
+
+.say-hi {
+    text-align: center;
+    padding: 70px 30px;
+    background-color: #0A2647;
+    color: #fff;
+}
+
+.say-hi a {
+    margin-left: 10px;
+}
+
+.say-hi-btn {
+    color: #fff;
+    background-color:#FF731D;
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: 400;
+}
+
+.say-hi-btn-outline {
+    color: #fff;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: 400;
+    border-color:#fff;
+}
+
+.say-hi-btn-outline:hover {
+    background-color: #FF731D;
 }
