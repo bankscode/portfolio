@@ -53,7 +53,7 @@ body {
 
 /* TOP CONTAINER */
 
-.top-container {
+#top-container {
     background-color: #0A2647;
 }
 
@@ -104,6 +104,10 @@ p {
     border-color: #fff;
     padding: 15px 35px;
     margin-top: 20px;
+}
+
+span {
+    color: #E14D2A;
 }
 
 
@@ -253,4 +257,28 @@ hr {
 
 .say-hi-btn-outline:hover {
     background-color: #FF731D;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+    text-align: center;
+    padding: 80px 0 40px;
+    background-color: #fff;
+}
+
+.footer-link {
+    margin-left: 15px;
+    font-size: 1.2rem;
+    color: #7F7C82;
+}
+
+.footer-link:hover {
+    color: #112B3C;
+}
+
+.footer-paragraph {
+    font-size: 0.7rem;
+    padding-top: 10px;
+    color: #7F7C82;
 }
