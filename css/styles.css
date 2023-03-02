@@ -1,14 +1,16 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: #0A2647;
+    background-color: #3E6D9C;
     overflow: auto;
     position: fixed;
+    z-index: 5;
 }
 
 /* Navbar links */
@@ -26,6 +28,7 @@ body {
     margin: 12px 30px;
     color: white;
     text-decoration: none;
+    border-color: #3E6D9C;
     font-size: 15px;
     padding: 8px 25px;
     background-color: #FF731D;
@@ -39,11 +42,12 @@ body {
 
 .btn:hover {
     background-color: #E14D2A;
+    border-color: #E14D2A;
     color: #fff;
 }
 
 
-@media only screen and (max-width: 521px) {
+@media only screen and (max-width: 420px) {
 
     .right-link {
         visibility: hidden;
@@ -54,7 +58,7 @@ body {
 /* TOP CONTAINER */
 
 #top-container {
-    background-color: #0A2647;
+    background-color: #3E6D9C;
 }
 
 .line {
@@ -165,7 +169,7 @@ span {
 /* BOTTOM CONTAINER */
 
 .bottom-container {
-    background-color: #0A2647;
+    background-color: #3E6D9C;
     color: #fff;
     padding-bottom: 50px;
 }
@@ -230,7 +234,7 @@ hr {
 .say-hi {
     text-align: center;
     padding: 70px 30px;
-    background-color: #0A2647;
+    background-color: #3E6D9C;
     color: #fff;
 }
 
@@ -257,6 +261,7 @@ hr {
 
 .say-hi-btn-outline:hover {
     background-color: #FF731D;
+    border-color: #FF731D;
 }
 
 /* FOOTER SECTION */
@@ -274,7 +279,7 @@ hr {
 }
 
 .footer-link:hover {
-    color: #112B3C;
+    color: #3E6D9C;
 }
 
 .footer-paragraph {
@@ -282,3 +287,17 @@ hr {
     padding-top: 10px;
     color: #7F7C82;
 }
+
+
+
+.expertise-div, .say-hii, .main-topp {
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: -5s;
+  }
+  
+  @keyframes example {
+    0%   { top:500px;}
+    100% { top:0px;}
+  }
